@@ -1,7 +1,6 @@
 <?php
 
-
-$grade = "Pizza";
+$grade = "Pedro";
 
 switch($grade) {
     case "A":
@@ -19,7 +18,7 @@ switch($grade) {
     case "F":
         echo "You failed";
         break;
+    default:
+        echo "{$grade} is not valid";
 }
-
-
 ?>
